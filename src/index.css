@@ -1,0 +1,282 @@
+*{
+
+  font-family: "poppins", sans-serif;
+}
+.nv{
+  position: absolute !important;
+  font-family: Poppins,sans-serif;
+}
+.phone{
+  
+  color: aliceblue !important;
+  position: relative !important;
+  margin-left: 200% !important;
+  text-align: right;
+  font-size: 4vh !important;
+
+  
+}
+
+.logo{
+  color: #ffff !important;
+  font-weight: 700 !important;
+  font-size: 5vh !important;
+  line-height:0svb;
+}
+.home{
+  color: #ffff !important;
+  font-weight: 500 !important;
+  font-size: 4vh !important;
+  margin-left: 20%;
+  
+
+}
+.wrapper {
+  display: block;
+
+
+}
+#b{
+  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  font-size: 300% !important;
+  font-weight: 500 !important;
+  border-bottom: #bcc200 2px solid;
+}
+
+p{
+}
+#a{
+  min-height: 80vh;
+ 
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: Poppins,sans-serif;
+  
+}
+.wr{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins,sans-serif;
+}
+.static-text{
+  color: rgb(255, 255, 254);
+  font-size: 60px;
+  font-weight: 600;
+  
+}
+#col_exp1{
+  border-left: #bcc200 3px solid;
+
+}
+#img_cer{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 15%;
+  margin-left: 15%;
+  width: 60% !important;
+
+
+
+}
+.titre{
+  text-align: center;
+  justify-content: center;
+  min-height: 16vh;
+  font-size: 300% !important;
+  font-weight: 500 !important;
+  border-bottom: #bcc200 2px solid;
+}
+.dynamic-texts li{
+  list-style: none;
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(3) infinite;
+}
+@keyframes slide{
+  100% {
+      top: -280px;
+  }
+}
+.dynamic-texts li ::after{
+content: "";
+position: absolute;
+left: 0;
+height: 100%;
+width: 100%;
+/* border-left: 2px solid rgb(255, 253, 253); */
+background-color: rgba(0, 0, 0, 0);
+animation: typing 2s steps(10) infinite;
+}
+.dynamic-texts {
+  margin-left: 15px;
+  line-height: 90px;
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  
+  height: 90px;
+
+  color: rgb(255, 254, 254);
+  overflow: hidden;
+}
+.dynamic-texts li {
+  position: relative;
+}
+
+@keyframes typing{
+  40%,
+  60%{
+      left: calc(100% + 10px);
+  }
+  100%{
+      left: 0;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.skill {
+  margin: 20px 0;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level1 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: progress 2s forwards ;
+}
+.skill-level2 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation : level2 2s forwards;
+}
+@keyframes level2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.skill-level3 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level3 2s ease-in-out forwards;
+}
+@keyframes level3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.skill-level4 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level4 2s ease-in-out forwards;
+}
+.skill-level5 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level5 2s ease-in-out forwards;
+}
+.skill-level6 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level6 2s ease-in-out forwards;
+}
+.skill-level7 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level7 2s ease-in-out forwards;
+}
+.skill-level8 {
+  height: 100%;
+  background-color: #bcc200;
+  border-radius: 5px;
+  animation: level8 2s ease-in-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes level8 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes level5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes level6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+#my_skills{
+  min-height: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  
+}
+
+.footer a {
+  color: #212529;
+}
+
+.footer a:hover {
+  color: #6c757d;
+}
